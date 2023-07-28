@@ -13,11 +13,13 @@ class HistoricalDataScreen extends StatelessWidget {
         backgroundColor: Colors.deepPurple,
         title: Text(
           'Historical Chart',
+        
           style: TextStyle(
             fontFamily: 'SofiaSans',
-            fontWeight: FontWeight.bold,
+            fontWeight: FontWeight.normal,
           ),
         ),
+        centerTitle: true,
       ),
       body: _buildChart(context), // Pass the context as a parameter
     );

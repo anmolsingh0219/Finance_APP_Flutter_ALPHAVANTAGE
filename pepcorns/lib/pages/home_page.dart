@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:pepcorns/pages/Change_Assets.dart';
 import 'package:pepcorns/pages/asset_search.dart';
+import 'package:pepcorns/pages/auth_page.dart';
 import 'package:pepcorns/pages/company_overview_search.dart';
 import 'package:pepcorns/widgets/button_widget.dart';
 
@@ -27,6 +28,12 @@ class HomePage extends StatelessWidget {
           IconButton(
             onPressed: () async {
               await FirebaseAuth.instance.signOut();
+
+               Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (context) => AuthPage()),
+            );
+              
             },
             icon: const Icon(Icons.logout),
           )

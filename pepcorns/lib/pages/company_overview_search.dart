@@ -45,6 +45,7 @@ class _CompanySearchScreenState extends State<CompanySearchScreen> {
             fontWeight: FontWeight.bold,
           ),
         ),
+        centerTitle: true,
         leading: IconButton(
           icon: Icon(Icons.arrow_back), // Back button icon
           onPressed: () {

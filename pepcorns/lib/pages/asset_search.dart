@@ -42,6 +42,7 @@ class _AssetSearchScreenState extends State<AssetSearchScreen> {
             fontWeight: FontWeight.bold,
           ),
         ),
+        centerTitle: true,
         leading: IconButton(
           icon: Icon(Icons.arrow_back), // Back button icon
           onPressed: () {

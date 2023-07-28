@@ -65,7 +65,7 @@ class _TopAssetsScreenState extends State<TopAssetsScreen> {
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
         title: Text(
-          'Top Assets',
+          'Asset Insgihts',
           style: TextStyle(fontFamily: 'Sofia Sans'),
         ),
         centerTitle: true,
